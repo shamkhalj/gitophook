@@ -1,0 +1,5 @@
+---
+- hosts: servers
+  tasks:
+       - debug:
+           msg: "{{inventory_hostname}}"
