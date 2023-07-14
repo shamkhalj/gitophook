@@ -1,6 +1,6 @@
 ---
 - name: create test directory
-  hosts: asniblehost
+  hosts: 10.220.234.101
   tasks:
         - file:
               path: /tmp/testdir_awx
