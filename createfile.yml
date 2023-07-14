@@ -1,0 +1,7 @@
+---
+- name: create file
+  hosts: servers
+  tasks:
+        - file:
+              path: /tmp/test_awx_file
+              state: touch
