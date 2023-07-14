@@ -1,0 +1,7 @@
+---
+- name: create test directory
+  hosts: asniblehost
+  tasks:
+        - file:
+              path: /tmp/testdir_awx
+              state: directory
