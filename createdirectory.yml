@@ -1,7 +1,0 @@
----
-- name: create test directory
-  hosts: 10.220.234.101
-  tasks:
-        - file:
-              path: /tmp/testdir_awx
-              state: directory
